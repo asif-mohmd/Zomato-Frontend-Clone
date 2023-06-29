@@ -5,7 +5,9 @@ body{
     padding: 0px;
     overflow-x: hidden; 
 }
-
+.header-image {
+    background-image: url(“https://play-lh.googleusercontent.com/AJCitwuXIAqauTL7ccZ-FlnO1_18DbYiYo9lk25TNOdlV7_hLz-ogqUMnOPDYyAeX-0”);
+    }
 /* top header starts */
 .top-header {
     background-color: #ffffff;
