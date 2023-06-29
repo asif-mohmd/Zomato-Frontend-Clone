@@ -299,6 +299,93 @@ body{
 
 
   /* footer starts */
+
+  .footer-content {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+    margin-left: 210px;
+    font-size: 0.8rem;
+   
+
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif; 
+  }
+  
+  .img-footer {
+    width: 40%;
+    height: auto;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  
+  
+  .footer-text {
+    font-size: 14px;
+    color: #777777;
+    margin: 0;
+  }
+  
+  .container a {
+    color: #777777;
+  }
+  
+  .container a:hover {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+      
+  
+  .row {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute content with space between */
+  }
+  
+  .footer-section {
+    flex-basis: 50%; /* Take up 50% width of the row */
+  }
+  
+  .footer-section2 {
+    flex-basis: 50%; /* Take up 50% width of the row */
+
+  }
+    .footer-filter-button {
+        background-color: #ffffff;
+        color: #383838;
+        border: 1px solid #dddddd;
+        border-radius: 10px;
+        padding: 12px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+        font-weight: 400;
+     
+        transition: background-color 0.3s;
+        
+      }
+      
+      .footer-filter-button:hover {
+        background-color: #f5f5f5;
+        border-color: #cccccc;
+      }
   
 
   /* footer ends */
