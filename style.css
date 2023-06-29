@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.top-header{
+    background-color: #ffffff;
+  
+    width: 100%;
+   
+    
+}
+.img-header{
+    width: 12%;
+    height: 12%;
+}
+.left-side-top-header{
+    padding-left: 250px;
+padding-right: 30px;
+float: left;
+font-size: 2.8rem;
+font-weight: 700;
+
+}
+
