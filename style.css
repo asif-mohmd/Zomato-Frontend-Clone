@@ -1,5 +1,9 @@
 body{
-    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 /* top header starts */
@@ -9,23 +13,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
   }
   
   .img-header {
-    width: 30%;
+    width: 24%;
     height: auto;
-    margin-left: 45%;
+    padding-left: 210px;
   }
   
   .search {
     display: flex;
     align-items: center;
-    margin-right: 40%;
+    padding-right: 300px;
   }
   
   .searchTerm {
-    width: 300px;
+    width: 500px;
     border: 1px solid #dfdfdf;
     border-right: none;
     padding: 5px;
@@ -39,6 +43,10 @@ body{
   
   .searchTerm:focus {
     background-color: #fff;
+  }
+  .searchTerm::placeholder {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.7; /* Adjust the opacity value to make the text appear lighter */
   }
   
   .searchButton {
@@ -60,13 +68,19 @@ body{
   }
   
   .loginButton,
-  .signupButton {
-    margin-left: 2%;
-    padding: 5px 10px;
-    background-color: #fff;
-    border: 1px solid #dfdfdf;
-    border-radius: 5px;
-  }
+.signupButton {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    border-radius: 0.6rem;
+    padding: 0.5rem !important;
+    margin-left: 20px;
+
+}
   
 
 /* top header starts */
@@ -78,15 +92,15 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    margin-right: 30%;
+    margin-right: 33%;
     
   }
   
   .second-header-img {
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    padding: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
     background-color: #f5f5f5;
 
   }
@@ -99,6 +113,7 @@ body{
   }
 
   hr{
+    margin-top: 20px;
     height: 1px;
     background-color: #eaeaea;
     border: none;
@@ -196,4 +211,21 @@ body{
   }
 /* highlight food section ends */
 
+/* item-names starts */
+.item-names{
+    color: rgb(54, 54, 54);
+    font-size: 1.4rem;
+   
+    font-weight: 500;
+    text-align: center;
+    padding-right: 1.6rem;
 
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1px;
+}
+
+/* items name ends */
