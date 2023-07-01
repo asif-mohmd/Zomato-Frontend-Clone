@@ -392,3 +392,15 @@ body{
   
 
   /* footer ends */
+
+
+/* Hover effect starts  */
+
+.hov-effect:hover {
+  transform:scale(1.1);
+  cursor: pointer;
+  
+}
+
+
+/* Hover effect ends */
