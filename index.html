@@ -1,471 +1,553 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zomato clone</title>
-    <link rel="icon" type="image/x-icon" href="https://play-lh.googleusercontent.com/AJCitwuXIAqauTL7ccZ-FlnO1_18DbYiYo9lk25TNOdlV7_hLz-ogqUMnOPDYyAeX-0">
-    
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/delivery-restaurants.css">
-    <link rel="stylesheet" href="/footer.css">
-    <link rel="stylesheet" href="/header.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zomato clone</title>
+  <link rel="icon" type="image/x-icon"
+    href="https://play-lh.googleusercontent.com/AJCitwuXIAqauTL7ccZ-FlnO1_18DbYiYo9lk25TNOdlV7_hLz-ogqUMnOPDYyAeX-0">
+
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/delivery-restaurants.css">
+  <link rel="stylesheet" href="/footer.css">
+  <link rel="stylesheet" href="/header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-<!-- Top header strats -->
-        <div class="top-header">
-          <div class="left-side-top-header">
-            <img class="img-header" src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="Zomato">
-          </div>
-          <div class="search">
-            <input type="text" class="searchTerm" placeholder="Search for restaurant, cuisine or a dish">
-            <button type="submit" class="searchButton">
-              <i class="fa fa-search"></i>
-            </button>
-           
-                <span class="loginButton hov-effect-2">Login</span>
-                <span class="signupButton">Signup</span>
-              
-          </div>
-        </div>
+  <div class="container">
+    <!-- Top header strats -->
+    <div class="top-header">
+      <div class="left-side-top-header">
+        <img class="img-header" src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
+          alt="Zomato">
+      </div>
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="Search for restaurant, cuisine or a dish">
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+        </button>
 
-      <!-- top header ends -->
-      <p style="  color: #9C9C9C; padding-left: 220px; font-family: Okra, Helvetica, sans-serif; font-weight: lighter; font-size: 0.8rem;">
-        Home / India / <span style="opacity: 0.5;">Bengaluru Restaurants</span>
+        <span class="loginButton hov-effect-2">Login</span>
+        <span class="signupButton">Signup</span>
+
+      </div>
+    </div>
+
+    <!-- top header ends -->
+    <p
+      style="  color: #9C9C9C; padding-left: 220px; font-family: Okra, Helvetica, sans-serif; font-weight: lighter; font-size: 0.8rem;">
+      Home / India / <span style="opacity: 0.5;">Bengaluru Restaurants</span>
     </p>
-    
-      <!-- Second header starts  -->
-      
-        <div class="second-header">
-            <div class="second-header-img">
-              <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp" alt="Avatar">
-              
-            </div>
-            <h3 style="font-family: Okra, Helvetica, sans-serif; font-weight: 500;font-size: 1.2rem; padding-left: 15px; padding-right: 25px;">Delivery</h3>
-            <div class="second-header-img">
-                <img style="opacity: 0.5;" src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png" alt="Avatar">
-              </div>
-              <h3 style="font-family: Okra, Helvetica, sans-serif; font-weight: 500;font-size: 1.2rem; padding-left: 15px; padding-right: 25px; opacity: 0.5;">Dining Out</h3>
-              <div class="second-header-img ">
-                
-                <img style="opacity: 0.5;" src="https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png" alt="Avatar">
-              </div>
-              <h3 style="font-family: Okra, Helvetica, sans-serif; font-weight: 500;font-size: 1.2rem; padding-left: 15px; padding-right: 25px; opacity: 0.5;">Night life</h3>
-          </div>
-  
+
+    <!-- Second header starts  -->
+
+    <div class="second-header">
+      <div class="second-header-img">
+        <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp"
+          alt="Avatar">
+
+      </div>
+      <h3
+        style="font-family: Okra, Helvetica, sans-serif; font-weight: 500;font-size: 1.2rem; padding-left: 15px; padding-right: 25px;">
+        Delivery</h3>
+      <div class="second-header-img">
+        <img style="opacity: 0.5;"
+          src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png" alt="Avatar">
+      </div>
+      <h3
+        style="font-family: Okra, Helvetica, sans-serif; font-weight: 500;font-size: 1.2rem; padding-left: 15px; padding-right: 25px; opacity: 0.5;">
+        Dining Out</h3>
+      <div class="second-header-img ">
+
+        <img style="opacity: 0.5;"
+          src="https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png" alt="Avatar">
+      </div>
+      <h3
+        style="font-family: Okra, Helvetica, sans-serif; font-weight: 500;font-size: 1.2rem; padding-left: 15px; padding-right: 25px; opacity: 0.5;">
+        Night life</h3>
+    </div>
+
     <hr style="color: rgb(255, 255, 255);">
 
-      <!-- Second header Endss -->
+    <!-- Second header Endss -->
 
 
-      <!-- filter  Section starts-->
+    <!-- filter  Section starts-->
 
-      <div class="filter-section" >
-        <button class="filter-button" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" ><i class="fa-solid fa-filter"></i> Filter</button>
-        <button class="filter-button" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Rating: 4.0+</button>
-        <button class="filter-button" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Pure Veg</button>
-        <button class="filter-button" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Cuisines  <i class="fa-solid fa-angle-down"></i></button>
+    <div class="filter-section">
+      <button class="filter-button"
+        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><i
+          class="fa-solid fa-filter"></i> Filter</button>
+      <button class="filter-button"
+        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Rating:
+        4.0+</button>
+      <button class="filter-button"
+        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Pure
+        Veg</button>
+      <button class="filter-button"
+        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Cuisines
+        <i class="fa-solid fa-angle-down"></i></button>
+    </div>
+
+    <!-- Filter sections ends -->
+
+
+    <!-- hightlight food section starts -->
+
+    <div class="highlight-food-section">
+      <h2 class="main-sub-headings">Inspiration for your first order</h2>
+
+      <div class="highlight-food-img hov-effect">
+        <img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" alt="Avatar">
+        <p class="item-names">Biryani</p>
       </div>
-      
-      <!-- Filter sections ends -->
 
 
-      <!-- hightlight food section starts -->
+      <div class="highlight-food-img-next hov-effect">
+        <img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">Pizza</p>
+      </div>
 
-        <div class="highlight-food-section">
-                <h2 class="main-sub-headings">Inspiration for your first order</h2>
+      <div class="highlight-food-img-next hov-effect">
+        <img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png" alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">Chicken</p>
+      </div>
 
-            <div class="highlight-food-img hov-effect">
-                <img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" alt="Avatar">
-                <p class="item-names">Biryani</p>
-              </div>
-      
+      <div class="highlight-food-img-next hov-effect">
+        <img src="https://b.zmtcdn.com/data/o2_assets/52eb9796bb9bcf0eba64c643349e97211634401116.png" alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">Thali</p>
+      </div>
 
-              <div class="highlight-food-img-next hov-effect">
-                <img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" alt="Avatar">   
-                <p class="item-names" style="padding-left:16px ;">Pizza</p> 
-            </div>
+      <div class="highlight-food-img-next hov-effect">
+        <img src="https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png" alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">Fried Rice</p>
+      </div>
 
-              <div class="highlight-food-img-next hov-effect">
-                <img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png" alt="Avatar">   
-                <p class="item-names" style="padding-left:16px ;">Chicken</p> 
-            </div>
+      <div class="highlight-food-img-next hov-effect">
+        <img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png" alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">Burger</p>
+      </div>
+      <i style="margin-top: 75px; " class="fa-solid fa-circle-chevron-right fa-xl"></i>
+    </div>
 
-              <div class="highlight-food-img-next hov-effect">
-                <img src="https://b.zmtcdn.com/data/o2_assets/52eb9796bb9bcf0eba64c643349e97211634401116.png" alt="Avatar">   
-                <p class="item-names" style="padding-left:16px ;">Thali</p> 
-            </div>
-
-              <div class="highlight-food-img-next hov-effect">
-                <img src="https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png" alt="Avatar">   
-                <p class="item-names" style="padding-left:16px ;">Fried Rice</p> 
-            </div>
-
-              <div class="highlight-food-img-next hov-effect">
-                <img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png" alt="Avatar" >   
-                <p class="item-names" style="padding-left:16px ;">Burger</p>  
-            </div>
-            <i style="margin-top: 75px; " class="fa-solid fa-circle-chevron-right fa-xl"></i>
-        </div>
-
-        <!-- hightlight food section ends -->
+    <!-- hightlight food section ends -->
 
 
 
-        <!-- top brands for you starts -->
-        <div class="top-brands-section">
-            <h2 class="main-sub-headings">Top brands for you</h2>
+    <!-- top brands for you starts -->
+    <div class="top-brands-section">
+      <h2 class="main-sub-headings">Top brands for you</h2>
 
-        <div class="highlight-food-img hov-effect">
-            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/ec72c289aa01d947fe15a009ce8e559f_1616052816.png?output-format=webp" alt="Avatar">
-            <p class="item-names">Meghana Foods</p>
-          </div>
-  
+      <div class="highlight-food-img hov-effect">
+        <img
+          src="https://b.zmtcdn.com/data/brand_creatives/logos/ec72c289aa01d947fe15a009ce8e559f_1616052816.png?output-format=webp"
+          alt="Avatar">
+        <p class="item-names">Meghana Foods</p>
+      </div>
 
-          <div class="highlight-food-img-next hov-effect">
-            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/7a7904eff687a7456599074a4e7d2335_1617875100.png?output-format=webp" alt="Avatar">   
-            <p class="item-names" style="padding-left:16px ;">Empire Restaurants</p> 
-        </div>
 
-          <div class="highlight-food-img-next hov-effect">
-            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/1a985408ca7ad8fd097f2c47db9c5cb6_1611252598.png?output-format=webp" alt="Avatar">   
-            <p class="item-names" style="padding-left:16px ;">Domino's Pizza</p> 
-        </div>
+      <div class="highlight-food-img-next hov-effect">
+        <img
+          src="https://b.zmtcdn.com/data/brand_creatives/logos/7a7904eff687a7456599074a4e7d2335_1617875100.png?output-format=webp"
+          alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">Empire Restaurants</p>
+      </div>
 
-          <div class="highlight-food-img-next hov-effect">
-            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/239f872f52291fe253a37cc8dd16188f_1663838300.png?output-format=webp" alt="Avatar">   
-            <p class="item-names" style="padding-left:16px ;">Truffles</p> 
-        </div>
+      <div class="highlight-food-img-next hov-effect">
+        <img
+          src="https://b.zmtcdn.com/data/brand_creatives/logos/1a985408ca7ad8fd097f2c47db9c5cb6_1611252598.png?output-format=webp"
+          alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">Domino's Pizza</p>
+      </div>
 
-          <div class="highlight-food-img-next hov-effect">
-            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/80c09d718acddee05a655eb378bb442f_1617875125.png?output-format=webp" alt="Avatar">   
-            <p class="item-names" style="padding-left:16px ;">KFC</p> 
-        </div>
+      <div class="highlight-food-img-next hov-effect">
+        <img
+          src="https://b.zmtcdn.com/data/brand_creatives/logos/239f872f52291fe253a37cc8dd16188f_1663838300.png?output-format=webp"
+          alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">Truffles</p>
+      </div>
 
-          <div class="highlight-food-img-next hov-effect">
-            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/ed9718e64b3307ae4aaee0bc81c1ea15_1625155163.png?output-format=webp" alt="Avatar" >   
-            <p class="item-names" style="padding-left:16px ;">Chaayos</p>  
-        </div>
-        
+      <div class="highlight-food-img-next hov-effect">
+        <img
+          src="https://b.zmtcdn.com/data/brand_creatives/logos/80c09d718acddee05a655eb378bb442f_1617875125.png?output-format=webp"
+          alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">KFC</p>
+      </div>
+
+      <div class="highlight-food-img-next hov-effect">
+        <img
+          src="https://b.zmtcdn.com/data/brand_creatives/logos/ed9718e64b3307ae4aaee0bc81c1ea15_1625155163.png?output-format=webp"
+          alt="Avatar">
+        <p class="item-names" style="padding-left:16px ;">Chaayos</p>
+      </div>
+
     </div>
 
 
-<br><br><br>
-<br><br><br>
+    <br><br><br>
+    <br><br><br>
 
 
-        <!-- Top brands for you ends -->
-        <h2 class="main-sub-headings" style="margin-top: 80px;">Delivery Restaurants in Bengaluru</h2>
+    <!-- Top brands for you ends -->
+    <h2 class="main-sub-headings" style="margin-top: 80px;">Delivery Restaurants in Bengaluru</h2>
 
 
-        <!-- Delivery restaurants starts  1st section-->
+    <!-- Delivery restaurants starts  1st section-->
 
-        <div class="restaurant-list">
-            
-            <article class="article-wrapper hov-effect">
-              <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/3/53923/f1ed8209bf84106c577ebd774dd7194b_o2_featured_v2.jpg?output-format=webp" alt="Avatar" >  
-              <div class="project-info">
-                <div class="flex-pr">
-                  <div class="product-names">Corner House Ice Creams</div>
-                </div>
-                <div class="types">
-                  <span class="product-types">Ice Creams, Desserts,Shakes</span>
-                  <span class="product-types" style="font-size: 0.8rem; ;">₹150 for one</span>
-                </div>
-              </div>
-            </article>
-          
-            <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-                <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp" alt="Avatar" >  
-                <div class="project-info">
-                    <div class="flex-pr">
-                      <div class="product-names">Empire Restaurant</div>
-                    </div>
-                    <div class="types">
-                      <span class="product-types">North indian,Biryani,Kebab </span>
-                      <span class="product-types" style="font-size: 0.8rem;padding-left: 15px;"> ₹150 for one</span>
-                    </div>
-                  </div>
-            </article>
+    <div class="restaurant-list">
 
-            <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-                <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/5/52015/dccb305e6737b14432a72e39cca12f18_o2_featured_v2.jpg?output-format=webp" alt="Avatar" >  
-                <div class="project-info">
-                    <div class="flex-pr">
-                      <div class="product-names">Shan Mukha</div>
-                    </div>
-                    <div class="types">
-                      <span class="product-types">Biryani,Hydrabadi items</span>
-                      <span class="product-types" style="font-size: 0.8rem; padding-left: 15px;">₹150 for one</span>
-                    </div>
-                  </div>
-              </article>
-
-              <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-                <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/4/50574/0b79e39ffc2e3770f3b66b26c0e6f4fd_o2_featured_v2.jpg" alt="Avatar" >  
-                <div class="project-info">
-                    <div class="flex-pr">
-                      <div class="product-names">KFC</div>
-                    </div>
-                    <div class="types">
-                      <span class="product-types">Fast Food,Burger,Biryani</span>
-                      <span class="product-types" style="font-size: 0.8rem;padding-left: 15px ;">₹200 for one</span>
-                    </div>
-                  </div>
-              </article>
-          
-            </div>
-
-
-           <!-- Delivery restaurants starts  2nd section-->
-
-           <div class="restaurant-list" style="margin-top: 60px;">
-
-           <article class="article-wrapper hov-effect">
-            <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/8/53088/02c120045aa412d79229dbed37b1d8be_o2_featured_v2.jpg" alt="Avatar" >  
-            <div class="project-info">
-              <div class="flex-pr">
-                <div class="product-names">Thalassery Restaurant</div>
-              </div>
-              <div class="types">
-                <span class="product-types">Kerala,South Indian,Seafoods</span>
-                <span class="product-types" style="font-size: 0.8rem; ;">₹300 for one</span>
-              </div>
-            </div>
-          </article>
-        
-          <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-              <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/6/50036/c5e37d1690f8c195bcc9f58ae609a2dc_o2_featured_v2.jpg" alt="Avatar" >  
-              <div class="project-info">
-                  <div class="flex-pr">
-                    <div class="product-names">Al-Bek</div>
-                  </div>
-                  <div class="types">
-                    <span class="product-types">Arabian,Mughlai,North Indian</span>
-                    <span class="product-types" style="font-size: 0.8rem;padding-left: px;">₹200 for one</span>
-                  </div>
-                </div>
-          </article>
-
-          <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-              <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/3/50643/cf4980e9a955625c8ab8bf5c171ba98a_o2_featured_v2.jpg" alt="Avatar" >  
-              <div class="project-info">
-                  <div class="flex-pr">
-                    <div class="product-names">Mani's Dum Biryani</div>
-                  </div>
-                  <div class="types">
-                    <span class="product-types">Biryani,North Indian</span>
-                    <span class="product-types" style="font-size: 0.8rem; padding-left: 15px;">₹250 for one</span>
-                  </div>
-                </div>
-            </article>
-
-            <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-              <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/9/19085099/ae4bee1430d091eedd5c853b4bd91689_o2_featured_v2.jpg" alt="Avatar" >  
-              <div class="project-info">
-                  <div class="flex-pr">
-                    <div class="product-names">Kwality Wall's Deserts</div>
-                  </div>
-                  <div class="types">
-                    <span class="product-types">Ice Creams,Deserts</span>
-                    <span class="product-types" style="font-size: 0.8rem;padding-left: 40px ;">₹180 for one</span>
-                  </div>
-                </div>
-            </article>
-
-          
+      <article class="article-wrapper hov-effect">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/3/53923/f1ed8209bf84106c577ebd774dd7194b_o2_featured_v2.jpg?output-format=webp"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Corner House Ice Creams</div>
           </div>
+          <div class="types">
+            <span class="product-types">Ice Creams, Desserts,Shakes</span>
+            <span class="product-types" style="font-size: 0.8rem; ;">₹150 for one</span>
+          </div>
+        </div>
+      </article>
 
-          <h2 class="main-sub-headings">Popular Restaurants in Bengaluru</h2>
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Empire Restaurant</div>
+          </div>
+          <div class="types">
+            <span class="product-types">North indian,Biryani,Kebab </span>
+            <span class="product-types" style="font-size: 0.8rem;padding-left: 15px;"> ₹150 for one</span>
+          </div>
+        </div>
+      </article>
 
-          
-        <!-- Delivery restaurants starts  3rd section-->
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/5/52015/dccb305e6737b14432a72e39cca12f18_o2_featured_v2.jpg?output-format=webp"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Shan Mukha</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Biryani,Hydrabadi items</span>
+            <span class="product-types" style="font-size: 0.8rem; padding-left: 15px;">₹150 for one</span>
+          </div>
+        </div>
+      </article>
 
-        <div class="restaurant-list" style="margin-top: 60px;">
-
-            
-            <article class="article-wrapper hov-effect">
-              <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/3/53923/f1ed8209bf84106c577ebd774dd7194b_o2_featured_v2.jpg?output-format=webp" alt="Avatar" >  
-              <div class="project-info">
-                <div class="flex-pr">
-                  <div class="product-names">Corner House Ice Creams</div>
-                </div>
-                <div class="types">
-                  <span class="product-types">Ice Creams, Desserts,Shakes</span>
-                  <span class="product-types" style="font-size: 0.8rem; ;">₹150 for one</span>
-                </div>
-              </div>
-            </article>
-          
-            <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-                <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp" alt="Avatar" >  
-                <div class="project-info">
-                    <div class="flex-pr">
-                      <div class="product-names">Empire Restaurant</div>
-                    </div>
-                    <div class="types">
-                      <span class="product-types">North indian,Biryani,Kebab </span>
-                      <span class="product-types" style="font-size: 0.8rem;padding-left: 15px;"> ₹150 for one</span>
-                    </div>
-                  </div>
-            </article>
-
-            <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-                <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/5/52015/dccb305e6737b14432a72e39cca12f18_o2_featured_v2.jpg?output-format=webp" alt="Avatar" >  
-                <div class="project-info">
-                    <div class="flex-pr">
-                      <div class="product-names">Shan Mukha</div>
-                    </div>
-                    <div class="types">
-                      <span class="product-types">Biryani,Hydrabadi items</span>
-                      <span class="product-types" style="font-size: 0.8rem; padding-left: 15px;">₹150 for one</span>
-                    </div>
-                  </div>
-              </article>
-
-              <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-                <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/4/50574/0b79e39ffc2e3770f3b66b26c0e6f4fd_o2_featured_v2.jpg" alt="Avatar" >  
-                <div class="project-info">
-                    <div class="flex-pr">
-                      <div class="product-names">KFC</div>
-                    </div>
-                    <div class="types">
-                      <span class="product-types">Fast Food,Burger,Biryani</span>
-                      <span class="product-types" style="font-size: 0.8rem;padding-left: 15px ;">₹200 for one</span>
-                    </div>
-                  </div>
-              </article>
-          
-            </div>
-
-
-              <!-- Delivery restaurants starts  4th section-->
-
-           <div class="restaurant-list" style="margin-top: 60px;">
-
-            <article class="article-wrapper hov-effect">
-             <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/8/53088/02c120045aa412d79229dbed37b1d8be_o2_featured_v2.jpg" alt="Avatar" >  
-             <div class="project-info">
-               <div class="flex-pr">
-                 <div class="product-names">Thalassery Restaurant</div>
-               </div>
-               <div class="types">
-                 <span class="product-types">Kerala,South Indian,Seafoods</span>
-                 <span class="product-types" style="font-size: 0.8rem; ;">₹300 for one</span>
-               </div>
-             </div>
-           </article>
-         
-           <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-               <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/6/50036/c5e37d1690f8c195bcc9f58ae609a2dc_o2_featured_v2.jpg" alt="Avatar" >  
-               <div class="project-info">
-                   <div class="flex-pr">
-                     <div class="product-names">Al-Bek</div>
-                   </div>
-                   <div class="types">
-                     <span class="product-types">Arabian,Mughlai,North Indian</span>
-                     <span class="product-types" style="font-size: 0.8rem;padding-left: px;">₹200 for one</span>
-                   </div>
-                 </div>
-           </article>
- 
-           <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-               <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/3/50643/cf4980e9a955625c8ab8bf5c171ba98a_o2_featured_v2.jpg" alt="Avatar" >  
-               <div class="project-info">
-                   <div class="flex-pr">
-                     <div class="product-names">Mani's Dum Biryani</div>
-                   </div>
-                   <div class="types">
-                     <span class="product-types">Biryani,North Indian</span>
-                     <span class="product-types" style="font-size: 0.8rem; padding-left: 15px;">₹250 for one</span>
-                   </div>
-                 </div>
-             </article>
- 
-             <article class="article-wrapper hov-effect" style="padding-left: 20px;">
-               <img class="rounded-lg container-project" src="https://b.zmtcdn.com/data/pictures/chains/9/19085099/ae4bee1430d091eedd5c853b4bd91689_o2_featured_v2.jpg" alt="Avatar" >  
-               <div class="project-info">
-                   <div class="flex-pr">
-                     <div class="product-names">Kwality Wall's Deserts</div>
-                   </div>
-                   <div class="types">
-                     <span class="product-types">Ice Creams,Deserts</span>
-                     <span class="product-types" style="font-size: 0.8rem;padding-left: 40px ;">₹180 for one</span>
-                   </div>
-                 </div>
-             </article>
-           
-           </div>
-          
-          <!-- Delivery Restaurants endss -->
-
-
-          <!-- footer Starts -->
-
-          <footer class="footer-content ">
-            <div class="container">
-              <div class="row">
-            
-                  <div class="footer-section about">
-                    <div class="img-footer">
-                      <img class="img-header" src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="Zomato">
-                    </div>
-                    <div class="footer-section categories">
-                      <h3 style="letter-spacing: 1; font-family: Okra, Helvetica, sans-serif; font-weight: lighter; ">ABOUT ZOMATO</h6>
-                      <ul class="footer-links">
-                        <li>Who We Are</li>
-                        <li>Work With Us</li>
-                        <li>Investor Relations</li>
-                        <li>Report Fraud</li>
-                        <li>Contact Us</li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div class="footer-section2 about" >
-                    <button class="footer-filter-button" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">India<i style="padding-left: 2px;" class="fa-solid fa-angle-down"></i></button>
-            
-                    <button class="footer-filter-button" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">English<i style="padding-left: 2px;" class="fa-solid fa-angle-down"></i></button>
-
-                    <h3 style="padding-left: 8px; letter-spacing: 1; font-family: Okra, Helvetica, sans-serif; font-weight: lighter; ">SOCIAL LINKS</h6>
-                    <div style="padding : 8px;">
-                        <i class="fa-brands fa-instagram hov-effect"></i>
-                        <i class="fa-brands fa-linkedin hov-effect"></i>
-                        <i class="fa-brands fa-twitter hov-effect"></i>
-                        <i class="fa-brands fa-youtube hov-effect"></i>
-                        <i class="fa-brands fa-facebook hov-effect"></i>
-                    </div>
-                    <div style="margin-top: 10px;">
-                   <img class="hov-effect" src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="" style="height: auto; width: 120px;">
-                   <img class="hov-effect" src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" style="height: auto; width: 120px;">
-                   </div>
-                  </div>
-                
-              </div>
-            </div>
-          
-            <hr>
-          
-            <div class="container">
-              <div class="row">
-              
-                  <p class="footer-text" style="margin-left: 10% ;">
-                    &By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </footer>
-          
-          <!-- Footer section ends -->
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/4/50574/0b79e39ffc2e3770f3b66b26c0e6f4fd_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">KFC</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Fast Food,Burger,Biryani</span>
+            <span class="product-types" style="font-size: 0.8rem;padding-left: 15px ;">₹200 for one</span>
+          </div>
+        </div>
+      </article>
 
     </div>
+
+
+    <!-- Delivery restaurants starts  2nd section-->
+
+    <div class="restaurant-list" style="margin-top: 60px;">
+
+      <article class="article-wrapper hov-effect">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/8/53088/02c120045aa412d79229dbed37b1d8be_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Thalassery Restaurant</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Kerala,South Indian,Seafoods</span>
+            <span class="product-types" style="font-size: 0.8rem; ;">₹300 for one</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/6/50036/c5e37d1690f8c195bcc9f58ae609a2dc_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Al-Bek</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Arabian,Mughlai,North Indian</span>
+            <span class="product-types" style="font-size: 0.8rem;padding-left: px;">₹200 for one</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/3/50643/cf4980e9a955625c8ab8bf5c171ba98a_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Mani's Dum Biryani</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Biryani,North Indian</span>
+            <span class="product-types" style="font-size: 0.8rem; padding-left: 15px;">₹250 for one</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/9/19085099/ae4bee1430d091eedd5c853b4bd91689_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Kwality Wall's Deserts</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Ice Creams,Deserts</span>
+            <span class="product-types" style="font-size: 0.8rem;padding-left: 40px ;">₹180 for one</span>
+          </div>
+        </div>
+      </article>
+
+
+    </div>
+
+    <h2 class="main-sub-headings">Popular Restaurants in Bengaluru</h2>
+
+
+    <!-- Delivery restaurants starts  3rd section-->
+
+    <div class="restaurant-list" style="margin-top: 60px;">
+
+
+      <article class="article-wrapper hov-effect">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/3/53923/f1ed8209bf84106c577ebd774dd7194b_o2_featured_v2.jpg?output-format=webp"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Corner House Ice Creams</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Ice Creams, Desserts,Shakes</span>
+            <span class="product-types" style="font-size: 0.8rem; ;">₹150 for one</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Empire Restaurant</div>
+          </div>
+          <div class="types">
+            <span class="product-types">North indian,Biryani,Kebab </span>
+            <span class="product-types" style="font-size: 0.8rem;padding-left: 15px;"> ₹150 for one</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/5/52015/dccb305e6737b14432a72e39cca12f18_o2_featured_v2.jpg?output-format=webp"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Shan Mukha</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Biryani,Hydrabadi items</span>
+            <span class="product-types" style="font-size: 0.8rem; padding-left: 15px;">₹150 for one</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/4/50574/0b79e39ffc2e3770f3b66b26c0e6f4fd_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">KFC</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Fast Food,Burger,Biryani</span>
+            <span class="product-types" style="font-size: 0.8rem;padding-left: 15px ;">₹200 for one</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+
+    <!-- Delivery restaurants starts  4th section-->
+
+    <div class="restaurant-list" style="margin-top: 60px;">
+
+      <article class="article-wrapper hov-effect">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/8/53088/02c120045aa412d79229dbed37b1d8be_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Thalassery Restaurant</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Kerala,South Indian,Seafoods</span>
+            <span class="product-types" style="font-size: 0.8rem; ;">₹300 for one</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/6/50036/c5e37d1690f8c195bcc9f58ae609a2dc_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Al-Bek</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Arabian,Mughlai,North Indian</span>
+            <span class="product-types" style="font-size: 0.8rem;padding-left: px;">₹200 for one</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/3/50643/cf4980e9a955625c8ab8bf5c171ba98a_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Mani's Dum Biryani</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Biryani,North Indian</span>
+            <span class="product-types" style="font-size: 0.8rem; padding-left: 15px;">₹250 for one</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-wrapper hov-effect" style="padding-left: 20px;">
+        <img class="rounded-lg container-project"
+          src="https://b.zmtcdn.com/data/pictures/chains/9/19085099/ae4bee1430d091eedd5c853b4bd91689_o2_featured_v2.jpg"
+          alt="Avatar">
+        <div class="project-info">
+          <div class="flex-pr">
+            <div class="product-names">Kwality Wall's Deserts</div>
+          </div>
+          <div class="types">
+            <span class="product-types">Ice Creams,Deserts</span>
+            <span class="product-types" style="font-size: 0.8rem;padding-left: 40px ;">₹180 for one</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Delivery Restaurants endss -->
+
+
+    <!-- footer Starts -->
+
+    <footer class="footer-content ">
+      <div class="container">
+        <div class="row">
+
+          <div class="footer-section about">
+            <div class="img-footer">
+              <img class="img-header"
+                src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="Zomato">
+            </div>
+            <div class="footer-section categories">
+              <h3 style="letter-spacing: 1; font-family: Okra, Helvetica, sans-serif; font-weight: lighter; ">ABOUT
+                ZOMATO</h6>
+                <ul class="footer-links">
+                  <li>Who We Are</li>
+                  <li>Work With Us</li>
+                  <li>Investor Relations</li>
+                  <li>Report Fraud</li>
+                  <li>Contact Us</li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="footer-section2 about">
+            <button class="footer-filter-button"
+              style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">India<i
+                style="padding-left: 2px;" class="fa-solid fa-angle-down"></i></button>
+
+            <button class="footer-filter-button"
+              style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">English<i
+                style="padding-left: 2px;" class="fa-solid fa-angle-down"></i></button>
+
+            <h3
+              style="padding-left: 8px; letter-spacing: 1; font-family: Okra, Helvetica, sans-serif; font-weight: lighter; ">
+              SOCIAL LINKS</h6>
+              <div style="padding : 8px;">
+                <i class="fa-brands fa-instagram hov-effect"></i>
+                <i class="fa-brands fa-linkedin hov-effect"></i>
+                <i class="fa-brands fa-twitter hov-effect"></i>
+                <i class="fa-brands fa-youtube hov-effect"></i>
+                <i class="fa-brands fa-facebook hov-effect"></i>
+              </div>
+              <div style="margin-top: 10px;">
+                <img class="hov-effect"
+                  src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt=""
+                  style="height: auto; width: 120px;">
+                <img class="hov-effect"
+                  src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt=""
+                  style="height: auto; width: 120px;">
+              </div>
+          </div>
+
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="container">
+        <div class="row">
+
+          <p class="footer-text" style="margin-left: 10% ;">
+            &By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content
+            Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+  </div>
+  </footer>
+
+  <!-- Footer section ends -->
+
+  </div>
 </body>
+
 </html>

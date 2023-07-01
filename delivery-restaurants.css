@@ -1,4 +1,3 @@
-
 /* highlight-food-section starts*/
 
 .highlight-food-section {
@@ -6,41 +5,42 @@
     height: 350px;
     background-color: #f8f8f8;
     margin-top: 20px;
-    
-  }
-  
-  .highlight-food-img {
-   
-    
+
+}
+
+.highlight-food-img {
+
+
     margin-left: 13%;
     float: left;
-  
-  }
-  
-  .highlight-food-img img {
+
+}
+
+.highlight-food-img img {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-  }
-  
-  /* -------------------------------- */
-  .highlight-food-img-next {
-   
- 
+}
+
+/* -------------------------------- */
+.highlight-food-img-next {
+
+
     float: left;
-    
-  
-  }
-  
-  .highlight-food-img-next img {
+
+
+}
+
+.highlight-food-img-next img {
     margin-left: 40px;
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    
-  }
+
+}
+
 /* highlight food section ends */
 
 
@@ -56,36 +56,36 @@
     border: 4px solid transparent;
     cursor: pointer;
     background-color: white;
-  }
-  
+}
 
-  .rounded-lg {
+
+.rounded-lg {
     border-radius: 10px;
-  }
+}
 
-  
-  .container-project {
+
+.container-project {
     width: 100%;
     height: 170px;
     background: gray;
-  }
+}
 
-  /* Delivery Restaurants ends */
+/* Delivery Restaurants ends */
 
-  /* Restaurants list starts */
+/* Restaurants list starts */
 
-  .restaurant-list {
+.restaurant-list {
     margin-left: 200px;
     display: flex;
-   
-  }
-  
-  .article-wrapper {
-    flex: 0 0 auto;
-  }
-  
 
-  .product-names{
+}
+
+.article-wrapper {
+    flex: 0 0 auto;
+}
+
+
+.product-names {
     line-height: 1.2;
     margin-block-end: 0px;
     font-weight: 500;
@@ -98,15 +98,15 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+}
 
-  .product-types{
-      color: #9C9C9C; 
-     
-      font-family: Okra, Helvetica, sans-serif; 
-      font-weight: lighter;
+.product-types {
+    color: #9C9C9C;
+
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: lighter;
     font-size: 0.8rem;
-  }
+}
 
-  
-  /* Restaurants list ends */
+
+/* Restaurants list ends */

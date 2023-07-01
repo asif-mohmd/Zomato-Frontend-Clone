@@ -1,42 +1,43 @@
-body{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
+
 .header-image {
-    background-image: url(“https://play-lh.googleusercontent.com/AJCitwuXIAqauTL7ccZ-FlnO1_18DbYiYo9lk25TNOdlV7_hLz-ogqUMnOPDYyAeX-0”);
-    }
+  background-image: url(“https://play-lh.googleusercontent.com/AJCitwuXIAqauTL7ccZ-FlnO1_18DbYiYo9lk25TNOdlV7_hLz-ogqUMnOPDYyAeX-0”);
+}
 
 
 /* Filter section starts */
 
 .filter-section {
-  
-    margin-top: 22px;
-    margin-left: 12%;
-  }
-  
-  .filter-button {
-    background-color: #ffffff;
-    color: #9C9C9C;
-    border: 1px solid #dddddd;
-    border-radius: 10px;
-    padding: 12px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-    font-weight: 400;
- 
-    transition: background-color 0.3s;
-    
-  }
-  
-  .filter-button:hover {
-    background-color: #f5f5f5;
-    border-color: #cccccc;
-  }
-  
+
+  margin-top: 22px;
+  margin-left: 12%;
+}
+
+.filter-button {
+  background-color: #ffffff;
+  color: #9C9C9C;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 400;
+
+  transition: background-color 0.3s;
+
+}
+
+.filter-button:hover {
+  background-color: #f5f5f5;
+  border-color: #cccccc;
+}
+
 
 
 /* Filter section ends */
@@ -44,13 +45,13 @@ body{
 
 /* Main sub heading starts */
 
-.main-sub-headings{
-    color: rgb(28, 28, 28); 
-    font-size: 1.9rem; 
-    font-weight: 400; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 70px;
-    margin-left: 13%;
+.main-sub-headings {
+  color: rgb(28, 28, 28);
+  font-size: 1.9rem;
+  font-weight: 400;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 70px;
+  margin-left: 13%;
 }
 
 /* main sub headings endss */
@@ -59,20 +60,20 @@ body{
 
 
 /* item-names starts */
-.item-names{
-    color: rgb(54, 54, 54);
-    font-size: 1.4rem;
-   
-    font-weight: 500;
-    text-align: center;
-    padding-right: 1.6rem;
+.item-names {
+  color: rgb(54, 54, 54);
+  font-size: 1.4rem;
 
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 1px;
+  font-weight: 500;
+  text-align: center;
+  padding-right: 1.6rem;
+
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 1px;
 }
 
 /* items name ends */
@@ -83,14 +84,14 @@ body{
 /* Hover effect starts  */
 
 .hov-effect:hover {
-  transform:scale(1.1);
+  transform: scale(1.1);
   cursor: pointer;
-  
+
 }
 
 
-.hov-effect:hover{
- transform-origin: 50% 50%;
+.hov-effect:hover {
+  transform-origin: 50% 50%;
 }
 
 /* Hover effect ends */
