@@ -1,0 +1,81 @@
+/* profile page */
+body {
+    background: linear-gradient(to bottom, #642B84, #271F42);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.border-right {
+    border-right: 1px solid #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    padding: 0.75rem 0;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #BA68C8;
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.profile-button:hover,
+.profile-button:focus,
+.profile-button:active {
+    background: #682773;
+}
+
+.labels {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #BA68C8;
+    border-color: #BA68C8;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #682773;
+    border-color: #682773;
+}
+
+.profile-button,
+.btn-primary {
+    cursor: pointer;
+}
+
