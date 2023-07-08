@@ -95,3 +95,25 @@ body {
 }
 
 /* Hover effect ends */
+
+.top-header-p {
+  color: #9C9C9C;
+  padding-left: 225px;
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 0.8rem;
+
+}
+
+.second-header-items {
+  font-family: Okra, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.filter-styles {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
