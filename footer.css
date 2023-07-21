@@ -10,8 +10,6 @@
       margin-bottom: 20px;
       margin-left: 210px;
       font-size: 0.8rem;
-
-
       font-weight: 400;
       font-family: Okra, Helvetica, sans-serif;
   }
@@ -30,14 +28,11 @@
       margin-bottom: 10px;
   }
 
-
   hr {
       border: none;
       border-top: 1px solid #ddd;
       margin: 20px 0;
   }
-
-
 
   .footer-text {
       font-size: 14px;
@@ -54,8 +49,6 @@
       text-decoration: none;
   }
 
-
-
   .row {
       display: flex;
       /* Use flexbox */
@@ -71,7 +64,6 @@
   .footer-section2 {
       flex-basis: 50%;
       /* Take up 50% width of the row */
-
   }
 
   .footer-filter-button {
@@ -83,9 +75,7 @@
       margin: 0 10px;
       cursor: pointer;
       font-weight: 400;
-
       transition: background-color 0.3s;
-
   }
 
   .footer-filter-button:hover {
