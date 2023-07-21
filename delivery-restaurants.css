@@ -5,15 +5,11 @@
     height: 350px;
     background-color: #f8f8f8;
     margin-top: 20px;
-
 }
 
 .highlight-food-img {
-
-
     margin-left: 13%;
     float: left;
-
 }
 
 .highlight-food-img img {
@@ -25,11 +21,7 @@
 
 /* -------------------------------- */
 .highlight-food-img-next {
-
-
-    float: left;
-
-
+     float: left;
 }
 
 .highlight-food-img-next img {
@@ -57,7 +49,6 @@
     cursor: pointer;
     background-color: white;
 }
-
 
 .rounded-lg {
     border-radius: 10px;
