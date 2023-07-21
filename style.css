@@ -1,3 +1,4 @@
+
 body {
   width: 100%;
   height: 100%;
@@ -27,7 +28,6 @@ body {
   cursor: pointer;
   font-weight: 400;
   transition: background-color 0.3s;
-
 }
 
 .filter-button:hover {
@@ -51,6 +51,7 @@ body {
 /* main sub headings endss */
 
 /* item-names starts */
+
 .item-names {
   color: rgb(54, 54, 54);
   font-size: 1.4rem;
@@ -74,7 +75,6 @@ body {
   cursor: pointer;
 }
 
-
 .hov-effect:hover {
   transform-origin: 50% 50%;
 }
@@ -87,7 +87,6 @@ body {
   font-family: Okra, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 0.8rem;
-
 }
 
 .second-header-items {
@@ -100,5 +99,4 @@ body {
 
 .filter-styles {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
